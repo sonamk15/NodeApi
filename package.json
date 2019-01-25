@@ -1,0 +1,21 @@
+{
+  "name": "myproject",
+  "version": "1.0.0",
+  "description": "my first project",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sonam",
+  "license": "ISC",
+  "dependencies": {
+    "hapi": "^17.8.1",
+    "hapi-mysql": "^1.0.16",
+    "inert": "^5.1.2",
+    "knex": "^0.16.3",
+    "mysql": "^2.16.0",
+    "nodemon": "^1.18.9"
+  },
+  "devDependencies": {}
+}
